@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none font-semibold;
+}
+
+h2 {
+  @apply text-xl font-medium leading-none;
+}
+
+p {
+  @apply text-th-gray text-xs;
+}
+
+.basic-container {
+  @apply px-4 pb-8;
+}
+
+.userform input {
+  @apply bg-white rounded-md p-4 text-base mt-4;
+}
+
+.userform input:placeholder {
+  @apply text-th-gray;
+}
+
+.error-span {
+  @apply text-red-600 text-left mt-1;
+}
+
+.success-span {
+  @apply text-base text-green-600;
+}
+
+.nav-menu a + a {
+  @apply ml-4;
+}
+
+.nav-menu a {
+  @apply text-th-red text-lg;
+}
+
+.header-nav-burger a {
+  @apply my-4 uppercase text-th-red;
+}
