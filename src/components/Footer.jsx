@@ -12,9 +12,9 @@ const Footer = () => {
         </a>
         <div className="mt-8 md:mt-0">
           <p>
-            NAXSOL ENTERPRISES LTD, 9, Vasili Michailidi, 3026, Limassol, Cyprus
+            Baku Enterprise Limited, Room 3602, Tower 1, Enterprise square Five, 38 Wang Chiu, Kowloon Bay, Kowloon Hong Kong
           </p>
-          <p className="mt-2">© VITER 2023. Legal Terms</p>
+          <p className="mt-2">© Baku Enterprise Limited, 2023</p>
         </div>
       </div>
     </section>
